@@ -16,6 +16,16 @@ inputs:
     description: "Token for creating the pull request"
     required: true
 
+  auto-merge:
+    description: "If 'true', the pull request will auto-merge once checks pass"
+    required: false
+    default: "false"
+
+  reviewers:
+    description: "Comma-separated list of reviewers to request"
+    required: false
+    default: ""
+
 outputs:
   version:
     description: "Extracted version from package.json"
@@ -27,6 +37,7 @@ runs:
       uses: actions/checkout@v4
 
     - name: Use Node to get version
+      id: get_version
       shell: bash
       run: |
         VERSION=$(npm pkg get version | sed 's/"//g')
@@ -37,8 +48,10 @@ runs:
       with:
         token: ${{ inputs.github-token }}
         base: ${{ inputs.base-branch }}
-        branch: feature/back-merge-${{ steps.use_Node_to_get_version.outputs.version }}
-        title: feature/back-merge-${{ steps.use_Node_to_get_version.outputs.version }}
-        body: "Merging changes from ${{ inputs.main-branch }} into ${{ inputs.base-branch }} at version ${{ steps.use_Node_to_get_version.outputs.version }}"
-        # If your main branch is not 'main', specify it here:
-        # For example: 'source-branch: ${{ inputs.main-branch }}'
+        branch: feature/back-merge-${{ steps.get_version.outputs.version }}
+        title: feature/back-merge-${{ steps.get_version.outputs.version }}
+        body: "Merging changes from ${{ inputs.main-branch }} into ${{ inputs.base-branch }} at version ${{ steps.get_version.outputs.version }}"
+        auto-merge: ${{ inputs.auto-merge }}
+        reviewers: ${{ inputs.reviewers }}
+        # If your main branch is not named 'main', you may also set 'source-branch':
+        # source-branch: ${{ inputs.main-branch }}
