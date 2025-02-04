@@ -1,5 +1,5 @@
 {
-    "name": "Back Merge Workflow (main -> develop)",
+    "name": "Back Merge Workflow",
     "description": "A workflow template that opens a pull request from main to develop whenever changes land on main. Branch names can be easily modified to fit your project’s needs.",
     "iconName": "octicon-git-merge",
     "categories": [
