@@ -1,0 +1,44 @@
+name: "Org Back Merge"
+description: "Creates a back merge pull request from main to develop with a branch named feature/back-merge-X.Y.Z"
+
+inputs:
+  base-branch:
+    description: "The branch into which changes are merged (default: develop)"
+    required: false
+    default: "develop"
+
+  main-branch:
+    description: "The branch from which changes are taken (default: main)"
+    required: false
+    default: "main"
+
+  github-token:
+    description: "Token for creating the pull request"
+    required: true
+
+outputs:
+  version:
+    description: "Extracted version from package.json"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Use Node to get version
+      shell: bash
+      run: |
+        VERSION=$(npm pkg get version | sed 's/"//g')
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+    - name: Create Pull Request (back-merge)
+      uses: peter-evans/create-pull-request@v4
+      with:
+        token: ${{ inputs.github-token }}
+        base: ${{ inputs.base-branch }}
+        branch: feature/back-merge-${{ steps.use_Node_to_get_version.outputs.version }}
+        title: feature/back-merge-${{ steps.use_Node_to_get_version.outputs.version }}
+        body: "Merging changes from ${{ inputs.main-branch }} into ${{ inputs.base-branch }} at version ${{ steps.use_Node_to_get_version.outputs.version }}"
+        # If your main branch is not 'main', specify it here:
+        # For example: 'source-branch: ${{ inputs.main-branch }}'
