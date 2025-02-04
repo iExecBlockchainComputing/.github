@@ -1,0 +1,33 @@
+name: Back Merge
+
+on:
+  push:
+    branches:
+      - main # Adjust to your main branch if it's named differently
+
+jobs:
+  back-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # To adapt if your project is a monorepo
+      - name: Get package version
+        id: get_version
+        run: |
+          VERSION=$(jq -r '.version' package.json)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request (main -> develop)
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Create a branch named "feature/back-merge-X.Y.Z" from 'main'
+          branch: "feature/back-merge-${{ steps.get_version.outputs.version }}"
+          base: "develop"
+          title: "feature/back-merge-${{ steps.get_version.outputs.version }}"
+          body: "This PR merges changes from main into develop."
+          # Optionally auto-merge or set reviewers
+          # auto-merge: true
+          # reviewers: "my-team"
