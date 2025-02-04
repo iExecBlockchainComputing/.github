@@ -5,10 +5,5 @@
     "categories": [
         "General",
         "Utilities"
-    ],
-    "filePatterns": [
-        "package.json$",
-        "^Dockerfile",
-        ".*\\.md$"
     ]
 }
