@@ -4,6 +4,7 @@
     "iconName": "octicon-git-merge",
     "categories": [
         "General",
-        "Utilities"
+        "Utilities",
+        "GitHub Workflow"
     ]
 }
