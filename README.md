@@ -17,7 +17,7 @@
 
 | Website                                             | Description                           | Repo                                                                                                                   |
 | --------------------------------------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [iExec Tool Doc]([https://docs.iex.ec)              | iExec Tools Documentation             | [iexec/iexec-tools-docs](https://github.com/iExecBlockchainComputing/documentation-tools](https://tools.docs.iex.ec/)) |
+| [iExec Tool Doc](https://tools.docs.iex.ec/)              | iExec Tools Documentation             | [iexec/iexec-tools-docs](https://github.com/iExecBlockchainComputing/documentation-tools](https://tools.docs.iex.ec/)) |
 | [iExec Protocol Doc](https://protocol.docs.iex.ec/) | iExec Protocol Documentation          | [iexec/iexec-protocol-docs](https://github.com/iExecBlockchainComputing/documentation)                                 |
 | [whitepaper](https://iex.ec/whitepaper)             | iExec Whitepaper and Technical Papers | -                                                                                                                      |
 
