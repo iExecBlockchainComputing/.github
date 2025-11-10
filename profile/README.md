@@ -5,11 +5,22 @@
 [![TELEGRAM](https://img.shields.io/badge/TELEGRAM-0087E5)](https://t.me/iexec_rlc_official)
 [![DISCORD](https://img.shields.io/badge/DISCORD-purple)](https://discord.com/invite/pbt9m98wnU)
 
-> [iExec](https://iex.ec) is revolutionizing decentralized cloud computing by enabling developers to monetize their computing resources and execute workloads on a global, decentralized network.
+> [iExec](https://iex.ec) makes it easy to add privacy to your existing apps, or build new ones with privacy at the core.
+> 
+> iExec privacy tools bring encrypted processing, data governance, and trusted execution to your apps, powered by a decentralized network of TEE-based compute.
 >
-> **Get involved!** 👉 Join the community, contribute to one of our essential repositories, or start building decentralized applications powered by iExec. 🚀
+> These components integrate directly into applications without the need to deploy or manage infrastructure. 🚀
 
+---
 
+## 💻 Dev Tools
+
+> Build, protect, and deploy your confidential apps with iExec’s developer toolkit.
+
+| Name | Description | Repo |
+|------|--------------|------|
+| [iApp Generator](https://docs.iex.ec/references/iapp-generator) | CLI tool to scaffold and deploy iExec Confidential Apps | [iExecBlockchainComputing/iapp](https://github.com/iExecBlockchainComputing/iapp) |
+| [Data Protector](https://docs.iex.ec/get-started/helloWorld/2-protectData) | Protect and share data using a decentralized privacy layer | [iExecBlockchainComputing/dataprotector-sdk](https://github.com/iExecBlockchainComputing/dataprotector-sdk) |
 
 ---
 
@@ -56,4 +67,4 @@
 - Follow [iExec on X](https://x.com/iEx_ec) for updates.
 - Need support? Reach out on [GitHub Discussions](https://github.com/iExecBlockchainComputing).
 
-> 🔐 Build the future of confidential computing with iExec!
+> **Privacy made easy.**
