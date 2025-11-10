@@ -42,11 +42,11 @@
 
 | Name              | Description                                                                                                  | Repo                                                                        |
 | ----------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
-| [Web3 Messaging](https://github.com/iExecBlockchainComputing/web3-messaging-usecase-demo) | Secure Web3 communication with privacy-preserving messaging | [iExecBlockchainComputing/web3-messaging-usecase-demo](https://github.com/iExecBlockchainComputing/web3-messaging-usecase-demo) |
+| [RomePay](https://taikai.network/ethrome/hackathons/2025/projects/cmgwoqypz01761nb954mdql7m/idea) | Confidential cross-chain payments | [armsves/ethrome2025](https://github.com/armsves/ethrome2025) |
+| [Trade Vault](https://taikai.network/ethrome/hackathons/2025/projects/cmgwvphis01nf86973lgqeqjh/idea) | Marketplace for private trading strategies | [youssef-jeddi/TradeVault](https://github.com/youssef-jeddi/TradeVault) |
 | [AI Agent](https://github.com/iExecBlockchainComputing/iexec-elizaos-agent) | ElizaOS agents with confidentiality in TDX TEEs | [iExecBlockchainComputing/iexec-elizaos-agent](https://github.com/iExecBlockchainComputing/iexec-elizaos-agent) |
 | [MCP Server](https://github.com/iExecBlockchainComputing/iexec-mcp-server) | Protocol server for Claude and AI tooling | [iExecBlockchainComputing/iexec-mcp-server](https://github.com/iExecBlockchainComputing/iexec-mcp-server) |
-| [Image Caption Matcher](https://github.com/iExecBlockchainComputing/image-caption-matcher-poc) | Validates image and text description matching | [iExecBlockchainComputing/image-caption-matcher-poc](https://github.com/iExecBlockchainComputing/image-caption-matcher-poc) |
-| [Image Generator](https://github.com/iExecBlockchainComputing/image-generation-poc) | Text-to-image generation using Stable Diffusion | [iExecBlockchainComputing/image-generation-poc](https://github.com/iExecBlockchainComputing/image-generation-poc) |
+| [Web3 Messaging](https://github.com/iExecBlockchainComputing/web3-messaging-usecase-demo) | Secure Web3 communication with privacy-preserving messaging | [iExecBlockchainComputing/web3-messaging-usecase-demo](https://github.com/iExecBlockchainComputing/web3-messaging-usecase-demo) |
 
 ---
 
