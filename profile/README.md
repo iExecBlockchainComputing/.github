@@ -7,7 +7,7 @@
 
 > [iExec](https://iex.ec) makes it easy to add privacy to your existing apps, or build new ones with privacy at the core.
 > 
-> iExec privacy tools bring encrypted processing, data governance, and trusted execution to your apps, powered by a decentralized network of TEE-based compute.
+> iExec privacy tools bring privacy-preserving computation, data governance, and trusted execution to your apps, powered by a decentralized network of TEE-based compute.
 >
 > These components integrate directly into applications without the need to deploy or manage infrastructure. 🚀
 
@@ -30,9 +30,9 @@
 
 | Name              | Description                                                                                                  | Repo                                                                        |
 | ----------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
-| [React Starter](https://github.com/iExecBlockchainComputing/iexec-react-starter)     | Using Privy SDK                          | [iExecBlockchainComputing/iexec-react-starter](https://github.com/iExecBlockchainComputing/iexec-react-starter) |
-| [Next.js Starter](https://github.com/iExecBlockchainComputing/iexec-nextjs-starter)   | Using Reown integration | [iExecBlockchainComputing/iexec-nextjs-starter](https://github.com/iExecBlockchainComputing/iexec-nextjs-starter) |
-| [Vue.js Starter](https://github.com/iExecBlockchainComputing/iexec-vuejs-starter)    | Using Reown integration                                | [iExecBlockchainComputing/iexec-vuejs-starter](https://github.com/iExecBlockchainComputing/iexec-vuejs-starter) |
+| React Starter    | Using Privy SDK                          | [iExecBlockchainComputing/iexec-react-starter](https://github.com/iExecBlockchainComputing/iexec-react-starter) |
+| Next.js Starter   | Using Reown integration | [iExecBlockchainComputing/iexec-nextjs-starter](https://github.com/iExecBlockchainComputing/iexec-nextjs-starter) |
+| Vue.js Starter    | Using Reown integration                                | [iExecBlockchainComputing/iexec-vuejs-starter](https://github.com/iExecBlockchainComputing/iexec-vuejs-starter) |
 
 ---
 
