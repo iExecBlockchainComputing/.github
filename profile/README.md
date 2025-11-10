@@ -20,7 +20,7 @@
 | Name | Description | Repo |
 |------|--------------|------|
 | [iApp Generator](https://docs.iex.ec/references/iapp-generator) | CLI tool to scaffold and deploy iExec Confidential Apps | [iExecBlockchainComputing/iapp](https://github.com/iExecBlockchainComputing/iapp) |
-| [Data Protector](https://docs.iex.ec/get-started/helloWorld/2-protectData) | Protect and share data using a decentralized privacy layer | [iExecBlockchainComputing/dataprotector-sdk](https://github.com/iExecBlockchainComputing/dataprotector-sdk) |
+| [Data Protector](https://docs.iex.ec/references/dataProtector/getting-started) | Protect and share data using a decentralized privacy layer | [iExecBlockchainComputing/dataprotector-sdk](https://github.com/iExecBlockchainComputing/dataprotector-sdk) |
 
 ---
 
