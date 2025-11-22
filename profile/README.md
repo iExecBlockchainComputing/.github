@@ -3,7 +3,7 @@
 [![DOCS](https://img.shields.io/badge/DOCS-03BE09)](https://docs.iex.ec/)
 [![CALENDAR](https://img.shields.io/badge/CALENDAR-F9F502)](https://www.iex.ec/iexec-roadmap)
 [![TELEGRAM](https://img.shields.io/badge/TELEGRAM-0087E5)](https://t.me/iexec_rlc_official)
-[![DISCORD](https://img.shields.io/badge/DISCORD-purple)](https://discord.com/invite/pbt9m98wnU)
+[![DISCORD](https://img.shields.io/badge/DISCORD-purple)](https://discord.gg/5TewNUnJHN)
 
 > [iExec](https://iex.ec) makes it easy to add privacy to your existing apps, or build new ones with privacy at the core.
 > 
@@ -63,7 +63,7 @@
 ### Get Started
 
 - Visit the [iExec Documentation](https://docs.iex.ec/) to start building with iExec.
-- Join the [iExec Community](https://t.me/iexec_official) on Telegram.
+- Join the [iExec Community](https://discord.gg/5TewNUnJHN) on Discord.
 - Follow [iExec on X](https://x.com/iEx_ec) for updates.
 - Need support? Reach out on [GitHub Discussions](https://github.com/iExecBlockchainComputing).
 
