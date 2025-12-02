@@ -5,6 +5,8 @@
 [![TELEGRAM](https://img.shields.io/badge/TELEGRAM-0087E5)](https://t.me/iexec_rlc_official)
 [![DISCORD](https://img.shields.io/badge/DISCORD-purple)](https://discord.gg/5TewNUnJHN)
 
+
+
 > [iExec](https://iex.ec) makes it easy to add privacy to your existing apps, or build new ones with privacy at the core.
 > 
 > iExec privacy tools bring privacy-preserving computation, data governance, and trusted execution to your apps, powered by a decentralized network of TEE-based compute.
@@ -64,7 +66,7 @@
 
 - Visit the [iExec Documentation](https://docs.iex.ec/) to start building with iExec.
 - Join the [iExec Community](https://discord.gg/5TewNUnJHN) on Discord.
-- Follow [iExec on X](https://x.com/iEx_ec) for updates.
+- Follow [iExec Developer on X](https://x.com/iExecDev) for updates.
 - Need support? Reach out on [GitHub Discussions](https://github.com/iExecBlockchainComputing).
 
 > **Privacy made easy.**
