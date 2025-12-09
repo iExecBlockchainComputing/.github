@@ -19,8 +19,8 @@
 
 | Name | Description | Repo | Latest Release | 
 |------|--------------|------| ---------------|
-| [iApp Generator](https://docs.iex.ec/references/iapp-generator) | CLI tool to scaffold and deploy iExec Confidential Apps | [iExecBlockchainComputing/iapp](https://github.com/iExecBlockchainComputing/iapp) | ![Latest Release](https://img.shields.io/github/v/release/iExecBlockchainComputing/iapp) |
-| [Data Protector](https://docs.iex.ec/references/dataProtector/getting-started) | Protect and share data using a decentralized privacy layer | [iExecBlockchainComputing/dataprotector-sdk](https://github.com/iExecBlockchainComputing/dataprotector-sdk) | ![Latest Release](https://img.shields.io/github/v/release/iExecBlockchainComputing/dataprotector-sdk) |
+| [iApp Generator](https://docs.iex.ec/references/iapp-generator) | CLI tool to scaffold and deploy iExec Confidential Apps | [iExecBlockchainComputing/iapp](https://github.com/iExecBlockchainComputing/iapp) | [![Latest Release](https://img.shields.io/npm/v/%40iexec%2Fiapp)](https://www.npmjs.com/package/@iexec/iapp) |
+| [Data Protector](https://docs.iex.ec/references/dataProtector/getting-started) | Protect and share data using a decentralized privacy layer | [iExecBlockchainComputing/dataprotector-sdk](https://github.com/iExecBlockchainComputing/dataprotector-sdk) | [![Latest Release](https://img.shields.io/npm/v/%40iexec%2Fdataprotector)](https://www.npmjs.com/package/@iexec/dataprotector) |
 
 ---
 
