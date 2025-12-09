@@ -64,7 +64,7 @@
 
 - Visit the [iExec Documentation](https://docs.iex.ec/) to start building with iExec.
 - Join the [iExec Community](https://discord.gg/5TewNUnJHN) on Discord.
-- Follow [iExec on X](https://x.com/iEx_ec) for updates.
+- Follow [iExec Developer on X](https://x.com/iExecDev) for updates.
 - Need support? Reach out on [GitHub Discussions](https://github.com/iExecBlockchainComputing).
 
 > **Privacy made easy.**
